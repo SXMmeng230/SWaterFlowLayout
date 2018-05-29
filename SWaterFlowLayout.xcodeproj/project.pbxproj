@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA9AD5B420BD103100A6381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5B320BD103100A6381D /* AppDelegate.m */; };
+		AA9AD5B720BD103100A6381D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5B620BD103100A6381D /* ViewController.m */; };
+		AA9AD5BA20BD103100A6381D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD5B820BD103100A6381D /* Main.storyboard */; };
+		AA9AD5BC20BD103200A6381D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD5BB20BD103200A6381D /* Assets.xcassets */; };
+		AA9AD5BF20BD103200A6381D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD5BD20BD103200A6381D /* LaunchScreen.storyboard */; };
+		AA9AD5C220BD103200A6381D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5C120BD103200A6381D /* main.m */; };
+		AA9AD5CC20BD103200A6381D /* SWaterFlowLayoutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5CB20BD103200A6381D /* SWaterFlowLayoutTests.m */; };
+		AA9AD5D720BD103200A6381D /* SWaterFlowLayoutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5D620BD103200A6381D /* SWaterFlowLayoutUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA9AD5C820BD103200A6381D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9AD5A720BD103100A6381D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9AD5AE20BD103100A6381D;
+			remoteInfo = SWaterFlowLayout;
+		};
+		AA9AD5D320BD103200A6381D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA9AD5A720BD103100A6381D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA9AD5AE20BD103100A6381D;
+			remoteInfo = SWaterFlowLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AA9AD5AF20BD103100A6381D /* SWaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9AD5B220BD103100A6381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AA9AD5B320BD103100A6381D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AA9AD5B520BD103100A6381D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AA9AD5B620BD103100A6381D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AA9AD5B920BD103100A6381D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AA9AD5BB20BD103200A6381D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA9AD5BE20BD103200A6381D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AA9AD5C020BD103200A6381D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9AD5C120BD103200A6381D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AA9AD5C720BD103200A6381D /* SWaterFlowLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWaterFlowLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9AD5CB20BD103200A6381D /* SWaterFlowLayoutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWaterFlowLayoutTests.m; sourceTree = "<group>"; };
+		AA9AD5CD20BD103200A6381D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA9AD5D220BD103200A6381D /* SWaterFlowLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SWaterFlowLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA9AD5D620BD103200A6381D /* SWaterFlowLayoutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SWaterFlowLayoutUITests.m; sourceTree = "<group>"; };
+		AA9AD5D820BD103200A6381D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA9AD5AC20BD103100A6381D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5C420BD103200A6381D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5CF20BD103200A6381D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA9AD5A620BD103100A6381D = {
+			isa = PBXGroup;
+			children = (
+				AA9AD5B120BD103100A6381D /* SWaterFlowLayout */,
+				AA9AD5CA20BD103200A6381D /* SWaterFlowLayoutTests */,
+				AA9AD5D520BD103200A6381D /* SWaterFlowLayoutUITests */,
+				AA9AD5B020BD103100A6381D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AA9AD5B020BD103100A6381D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AD5AF20BD103100A6381D /* SWaterFlowLayout.app */,
+				AA9AD5C720BD103200A6381D /* SWaterFlowLayoutTests.xctest */,
+				AA9AD5D220BD103200A6381D /* SWaterFlowLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AA9AD5B120BD103100A6381D /* SWaterFlowLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AD5B220BD103100A6381D /* AppDelegate.h */,
+				AA9AD5B320BD103100A6381D /* AppDelegate.m */,
+				AA9AD5B520BD103100A6381D /* ViewController.h */,
+				AA9AD5B620BD103100A6381D /* ViewController.m */,
+				AA9AD5B820BD103100A6381D /* Main.storyboard */,
+				AA9AD5BB20BD103200A6381D /* Assets.xcassets */,
+				AA9AD5BD20BD103200A6381D /* LaunchScreen.storyboard */,
+				AA9AD5C020BD103200A6381D /* Info.plist */,
+				AA9AD5C120BD103200A6381D /* main.m */,
+			);
+			path = SWaterFlowLayout;
+			sourceTree = "<group>";
+		};
+		AA9AD5CA20BD103200A6381D /* SWaterFlowLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AD5CB20BD103200A6381D /* SWaterFlowLayoutTests.m */,
+				AA9AD5CD20BD103200A6381D /* Info.plist */,
+			);
+			path = SWaterFlowLayoutTests;
+			sourceTree = "<group>";
+		};
+		AA9AD5D520BD103200A6381D /* SWaterFlowLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AA9AD5D620BD103200A6381D /* SWaterFlowLayoutUITests.m */,
+				AA9AD5D820BD103200A6381D /* Info.plist */,
+			);
+			path = SWaterFlowLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA9AD5AE20BD103100A6381D /* SWaterFlowLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9AD5DB20BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayout" */;
+			buildPhases = (
+				AA9AD5AB20BD103100A6381D /* Sources */,
+				AA9AD5AC20BD103100A6381D /* Frameworks */,
+				AA9AD5AD20BD103100A6381D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWaterFlowLayout;
+			productName = SWaterFlowLayout;
+			productReference = AA9AD5AF20BD103100A6381D /* SWaterFlowLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AA9AD5C620BD103200A6381D /* SWaterFlowLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9AD5DE20BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayoutTests" */;
+			buildPhases = (
+				AA9AD5C320BD103200A6381D /* Sources */,
+				AA9AD5C420BD103200A6381D /* Frameworks */,
+				AA9AD5C520BD103200A6381D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9AD5C920BD103200A6381D /* PBXTargetDependency */,
+			);
+			name = SWaterFlowLayoutTests;
+			productName = SWaterFlowLayoutTests;
+			productReference = AA9AD5C720BD103200A6381D /* SWaterFlowLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AA9AD5D120BD103200A6381D /* SWaterFlowLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA9AD5E120BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayoutUITests" */;
+			buildPhases = (
+				AA9AD5CE20BD103200A6381D /* Sources */,
+				AA9AD5CF20BD103200A6381D /* Frameworks */,
+				AA9AD5D020BD103200A6381D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AA9AD5D420BD103200A6381D /* PBXTargetDependency */,
+			);
+			name = SWaterFlowLayoutUITests;
+			productName = SWaterFlowLayoutUITests;
+			productReference = AA9AD5D220BD103200A6381D /* SWaterFlowLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA9AD5A720BD103100A6381D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = sunxm;
+				TargetAttributes = {
+					AA9AD5AE20BD103100A6381D = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AA9AD5C620BD103200A6381D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA9AD5AE20BD103100A6381D;
+					};
+					AA9AD5D120BD103200A6381D = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AA9AD5AE20BD103100A6381D;
+					};
+				};
+			};
+			buildConfigurationList = AA9AD5AA20BD103100A6381D /* Build configuration list for PBXProject "SWaterFlowLayout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AA9AD5A620BD103100A6381D;
+			productRefGroup = AA9AD5B020BD103100A6381D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AA9AD5AE20BD103100A6381D /* SWaterFlowLayout */,
+				AA9AD5C620BD103200A6381D /* SWaterFlowLayoutTests */,
+				AA9AD5D120BD103200A6381D /* SWaterFlowLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AA9AD5AD20BD103100A6381D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9AD5BF20BD103200A6381D /* LaunchScreen.storyboard in Resources */,
+				AA9AD5BC20BD103200A6381D /* Assets.xcassets in Resources */,
+				AA9AD5BA20BD103100A6381D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5C520BD103200A6381D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5D020BD103200A6381D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA9AD5AB20BD103100A6381D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9AD5B720BD103100A6381D /* ViewController.m in Sources */,
+				AA9AD5C220BD103200A6381D /* main.m in Sources */,
+				AA9AD5B420BD103100A6381D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5C320BD103200A6381D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9AD5CC20BD103200A6381D /* SWaterFlowLayoutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA9AD5CE20BD103200A6381D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA9AD5D720BD103200A6381D /* SWaterFlowLayoutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AA9AD5C920BD103200A6381D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9AD5AE20BD103100A6381D /* SWaterFlowLayout */;
+			targetProxy = AA9AD5C820BD103200A6381D /* PBXContainerItemProxy */;
+		};
+		AA9AD5D420BD103200A6381D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AA9AD5AE20BD103100A6381D /* SWaterFlowLayout */;
+			targetProxy = AA9AD5D320BD103200A6381D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AA9AD5B820BD103100A6381D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9AD5B920BD103100A6381D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AA9AD5BD20BD103200A6381D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AA9AD5BE20BD103200A6381D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AA9AD5D920BD103200A6381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AA9AD5DA20BD103200A6381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AA9AD5DC20BD103200A6381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AA9AD5DD20BD103200A6381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AA9AD5DF20BD103200A6381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWaterFlowLayout.app/SWaterFlowLayout";
+			};
+			name = Debug;
+		};
+		AA9AD5E020BD103200A6381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayoutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SWaterFlowLayout.app/SWaterFlowLayout";
+			};
+			name = Release;
+		};
+		AA9AD5E220BD103200A6381D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWaterFlowLayout;
+			};
+			name = Debug;
+		};
+		AA9AD5E320BD103200A6381D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SWaterFlowLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.SWaterFlowLayoutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SWaterFlowLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA9AD5AA20BD103100A6381D /* Build configuration list for PBXProject "SWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9AD5D920BD103200A6381D /* Debug */,
+				AA9AD5DA20BD103200A6381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9AD5DB20BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9AD5DC20BD103200A6381D /* Debug */,
+				AA9AD5DD20BD103200A6381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9AD5DE20BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9AD5DF20BD103200A6381D /* Debug */,
+				AA9AD5E020BD103200A6381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AA9AD5E120BD103200A6381D /* Build configuration list for PBXNativeTarget "SWaterFlowLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA9AD5E220BD103200A6381D /* Debug */,
+				AA9AD5E320BD103200A6381D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AA9AD5A720BD103100A6381D /* Project object */;
+}
