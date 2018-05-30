@@ -70,28 +70,8 @@ static NSString *identifierCell = @"TestCollectionViewCell";
     }
     return cell;
 }
-//- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
-//{
-//    int x = arc4random() % 100;
-//    return CGSizeMake((self.view.frame.size.width - 20) / 3.0 , x + 100);
-//}
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section
-{
-    return CGFLOAT_MIN;
-}
-- (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout minimumInteritemSpacingForSectionAtIndex:(NSInteger)section
-{
-    return CGFLOAT_MIN;
-}
-
-
-//- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
-//{
-//    return UIEdgeInsetsZero;
-//}
 - (CGFloat)itemHeightWithlayout:(UICollectionViewLayout*)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath
 {
-//    int x = arc4random() % 100;
     return  [self.heightArray[indexPath.row] doubleValue];
 }
 - (void)didReceiveMemoryWarning {
