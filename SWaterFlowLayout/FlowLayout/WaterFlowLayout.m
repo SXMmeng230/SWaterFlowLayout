@@ -58,25 +58,25 @@
         itemHeight = [self.delegateFlow itemHeightWithlayout:self sizeForItemAtIndexPath:indexPath];
     }
     //找到最短的列
-    __block NSNumber *minIndex = @0;
+    __block NSNumber *minColumn = @0;
     [self.columnHeightDic enumerateKeysAndObjectsUsingBlock:^(NSNumber *key, NSNumber *obj, BOOL *stop) {
-        if ([self.columnHeightDic[minIndex] floatValue] > obj.floatValue) {
-            minIndex = key;
+        if ([self.columnHeightDic[minColumn] floatValue] > obj.floatValue) {
+            minColumn = key;
         }
     }];
-    CGFloat oldHeight = [self.columnHeightDic[minIndex] doubleValue];
+    CGFloat oldHeight = [self.columnHeightDic[minColumn] doubleValue];
     if (indexPath.row <= self.column - 1) {//第一行
         itemY = oldHeight + self.sectionInset.top;
     }else{
         itemY =  oldHeight + self.rowSpacing;
     }
-    itemX = [minIndex integerValue] * (itemWidth+ self.columnSpacing) + self.sectionInset.left;
+    itemX = [minColumn integerValue] * (itemWidth+ self.columnSpacing) + self.sectionInset.left;
     
-    [self.columnHeightDic setObject:@(itemHeight + itemY) forKey:minIndex];
+    [self.columnHeightDic setObject:@(itemHeight + itemY) forKey:minColumn];
 
     layoutAtt.frame = CGRectMake(itemX, itemY, itemWidth, itemHeight);
 
-    CGFloat columnHeight = [self.columnHeightDic[minIndex] doubleValue];
+    CGFloat columnHeight = [self.columnHeightDic[minColumn] doubleValue];
     if (self.contentHeight < columnHeight) {
         self.contentHeight = columnHeight;
     }
