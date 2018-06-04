@@ -11,26 +11,30 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="TestCollectionViewCell">
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="SCardCell">
             <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                 <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oXw-cR-8rE">
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C0x-Ym-uTM">
                         <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
-                    </imageView>
+                        <color key="backgroundColor" red="1" green="0.1529411765" blue="0.1529411765" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
                 </subviews>
             </view>
             <constraints>
-                <constraint firstAttribute="trailing" secondItem="oXw-cR-8rE" secondAttribute="trailing" id="LlI-lV-li9"/>
-                <constraint firstAttribute="bottom" secondItem="oXw-cR-8rE" secondAttribute="bottom" id="PrU-iA-VDP"/>
-                <constraint firstItem="oXw-cR-8rE" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="eVX-ec-lri"/>
-                <constraint firstItem="oXw-cR-8rE" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="pjG-Qu-q6b"/>
+                <constraint firstItem="C0x-Ym-uTM" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="AYM-qA-irf"/>
+                <constraint firstAttribute="trailing" secondItem="C0x-Ym-uTM" secondAttribute="trailing" id="L2c-i5-FQF"/>
+                <constraint firstAttribute="bottom" secondItem="C0x-Ym-uTM" secondAttribute="bottom" id="O1q-9U-Nx1"/>
+                <constraint firstItem="C0x-Ym-uTM" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="yr1-Sv-yZ8"/>
             </constraints>
             <connections>
-                <outlet property="ivHead" destination="oXw-cR-8rE" id="y1w-pk-tvh"/>
+                <outlet property="lbTitle" destination="C0x-Ym-uTM" id="QaN-Yp-Rhr"/>
             </connections>
         </collectionViewCell>
     </objects>

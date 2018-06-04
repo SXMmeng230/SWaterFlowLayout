@@ -10,6 +10,7 @@
 
 #import "SFlowLayoutViewController.h"
 #import "SCircleFlowViewController.h"
+#import "SCardFlowLayoutViewController.h"
 @interface ViewController ()
 @end
 
@@ -29,6 +30,11 @@
 {
     SCircleFlowViewController *circleFlow = [[SCircleFlowViewController alloc] init];
     [self.navigationController pushViewController:circleFlow animated:YES];
+}
+- (IBAction)clickCardFlow:(UIButton *)sender
+{
+    SCardFlowLayoutViewController *cardFlow = [[SCardFlowLayoutViewController alloc] init];
+    [self.navigationController pushViewController:cardFlow animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
