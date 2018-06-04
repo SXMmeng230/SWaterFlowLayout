@@ -37,6 +37,13 @@
 		AA9AD66F20BD4A2400A6381D /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD62C20BD4A2400A6381D /* MJRefreshBackFooter.m */; };
 		AA9AD67020BD4A2400A6381D /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD62D20BD4A2400A6381D /* MJRefreshAutoFooter.m */; };
 		AA9AD67120BD4A2400A6381D /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD62F20BD4A2400A6381D /* MJRefreshComponent.m */; };
+		AA9AD68820BE868B00A6381D /* CircleFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD68720BE868B00A6381D /* CircleFlowLayout.m */; };
+		AA9AD68C20BE8BE900A6381D /* SFlowLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD68A20BE8BE900A6381D /* SFlowLayoutViewController.m */; };
+		AA9AD68D20BE8BE900A6381D /* SFlowLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD68B20BE8BE900A6381D /* SFlowLayoutViewController.xib */; };
+		AA9AD69120BEA16500A6381D /* SCircleFlowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD68F20BEA16500A6381D /* SCircleFlowViewController.m */; };
+		AA9AD69220BEA16500A6381D /* SCircleFlowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD69020BEA16500A6381D /* SCircleFlowViewController.xib */; };
+		AA9AD69620BEA28300A6381D /* SCircleCollectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD69420BEA28300A6381D /* SCircleCollectionCell.m */; };
+		AA9AD69720BEA28300A6381D /* SCircleCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD69520BEA28300A6381D /* SCircleCollectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +123,17 @@
 		AA9AD62F20BD4A2400A6381D /* MJRefreshComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJRefreshComponent.m; sourceTree = "<group>"; };
 		AA9AD63020BD4A2400A6381D /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
 		AA9AD63120BD4A2400A6381D /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
+		AA9AD68620BE868B00A6381D /* CircleFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleFlowLayout.h; sourceTree = "<group>"; };
+		AA9AD68720BE868B00A6381D /* CircleFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleFlowLayout.m; sourceTree = "<group>"; };
+		AA9AD68920BE8BE900A6381D /* SFlowLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFlowLayoutViewController.h; sourceTree = "<group>"; };
+		AA9AD68A20BE8BE900A6381D /* SFlowLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFlowLayoutViewController.m; sourceTree = "<group>"; };
+		AA9AD68B20BE8BE900A6381D /* SFlowLayoutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SFlowLayoutViewController.xib; sourceTree = "<group>"; };
+		AA9AD68E20BEA16500A6381D /* SCircleFlowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCircleFlowViewController.h; sourceTree = "<group>"; };
+		AA9AD68F20BEA16500A6381D /* SCircleFlowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCircleFlowViewController.m; sourceTree = "<group>"; };
+		AA9AD69020BEA16500A6381D /* SCircleFlowViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCircleFlowViewController.xib; sourceTree = "<group>"; };
+		AA9AD69320BEA28300A6381D /* SCircleCollectionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCircleCollectionCell.h; sourceTree = "<group>"; };
+		AA9AD69420BEA28300A6381D /* SCircleCollectionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCircleCollectionCell.m; sourceTree = "<group>"; };
+		AA9AD69520BEA28300A6381D /* SCircleCollectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCircleCollectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +190,15 @@
 				AA9AD5B320BD103100A6381D /* AppDelegate.m */,
 				AA9AD5B520BD103100A6381D /* ViewController.h */,
 				AA9AD5B620BD103100A6381D /* ViewController.m */,
+				AA9AD68920BE8BE900A6381D /* SFlowLayoutViewController.h */,
+				AA9AD68A20BE8BE900A6381D /* SFlowLayoutViewController.m */,
+				AA9AD68B20BE8BE900A6381D /* SFlowLayoutViewController.xib */,
+				AA9AD68E20BEA16500A6381D /* SCircleFlowViewController.h */,
+				AA9AD68F20BEA16500A6381D /* SCircleFlowViewController.m */,
+				AA9AD69020BEA16500A6381D /* SCircleFlowViewController.xib */,
+				AA9AD69320BEA28300A6381D /* SCircleCollectionCell.h */,
+				AA9AD69420BEA28300A6381D /* SCircleCollectionCell.m */,
+				AA9AD69520BEA28300A6381D /* SCircleCollectionCell.xib */,
 				AA9AD5E720BD239D00A6381D /* TestCollectionViewCell.h */,
 				AA9AD5E820BD239D00A6381D /* TestCollectionViewCell.m */,
 				AA9AD5E920BD239D00A6381D /* TestCollectionViewCell.xib */,
@@ -308,6 +335,8 @@
 			children = (
 				AA9AD5E420BD106B00A6381D /* WaterFlowLayout.h */,
 				AA9AD5E520BD106B00A6381D /* WaterFlowLayout.m */,
+				AA9AD68620BE868B00A6381D /* CircleFlowLayout.h */,
+				AA9AD68720BE868B00A6381D /* CircleFlowLayout.m */,
 			);
 			path = FlowLayout;
 			sourceTree = "<group>";
@@ -418,7 +447,10 @@
 				AA9AD5BF20BD103200A6381D /* LaunchScreen.storyboard in Resources */,
 				AA9AD5BC20BD103200A6381D /* Assets.xcassets in Resources */,
 				AA9AD5EB20BD239D00A6381D /* TestCollectionViewCell.xib in Resources */,
+				AA9AD69720BEA28300A6381D /* SCircleCollectionCell.xib in Resources */,
 				AA9AD66120BD4A2400A6381D /* MJRefresh.bundle in Resources */,
+				AA9AD69220BEA16500A6381D /* SCircleFlowViewController.xib in Resources */,
+				AA9AD68D20BE8BE900A6381D /* SFlowLayoutViewController.xib in Resources */,
 				AA9AD5BA20BD103100A6381D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -454,19 +486,23 @@
 				AA9AD67020BD4A2400A6381D /* MJRefreshAutoFooter.m in Sources */,
 				AA9AD66E20BD4A2400A6381D /* MJRefreshHeader.m in Sources */,
 				AA9AD66420BD4A2400A6381D /* MJRefreshBackGifFooter.m in Sources */,
+				AA9AD69620BEA28300A6381D /* SCircleCollectionCell.m in Sources */,
 				AA9AD66220BD4A2400A6381D /* UIScrollView+MJExtension.m in Sources */,
 				AA9AD5B420BD103100A6381D /* AppDelegate.m in Sources */,
 				AA9AD66520BD4A2400A6381D /* MJRefreshBackStateFooter.m in Sources */,
 				AA9AD66320BD4A2400A6381D /* UIView+MJExtension.m in Sources */,
 				AA9AD65F20BD4A2400A6381D /* UIScrollView+MJRefresh.m in Sources */,
+				AA9AD68C20BE8BE900A6381D /* SFlowLayoutViewController.m in Sources */,
 				AA9AD66620BD4A2400A6381D /* MJRefreshBackNormalFooter.m in Sources */,
 				AA9AD66F20BD4A2400A6381D /* MJRefreshBackFooter.m in Sources */,
 				AA9AD66C20BD4A2400A6381D /* MJRefreshGifHeader.m in Sources */,
 				AA9AD66920BD4A2400A6381D /* MJRefreshAutoNormalFooter.m in Sources */,
+				AA9AD68820BE868B00A6381D /* CircleFlowLayout.m in Sources */,
 				AA9AD66020BD4A2400A6381D /* MJRefreshConst.m in Sources */,
 				AA9AD66720BD4A2400A6381D /* MJRefreshAutoStateFooter.m in Sources */,
 				AA9AD5EA20BD239D00A6381D /* TestCollectionViewCell.m in Sources */,
 				AA9AD66D20BD4A2400A6381D /* MJRefreshFooter.m in Sources */,
+				AA9AD69120BEA16500A6381D /* SCircleFlowViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -638,6 +674,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4P6F5696H;
 				INFOPLIST_FILE = SWaterFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -655,6 +692,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4P6F5696H;
 				INFOPLIST_FILE = SWaterFlowLayout/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
