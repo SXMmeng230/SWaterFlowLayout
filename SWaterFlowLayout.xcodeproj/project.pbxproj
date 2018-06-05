@@ -12,6 +12,9 @@
 		AA8EDC9220C4DC1F0004AF4C /* SCardFlowLayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8EDC9020C4DC1F0004AF4C /* SCardFlowLayoutViewController.xib */; };
 		AA8EDC9620C4DD2C0004AF4C /* SCardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8EDC9420C4DD2C0004AF4C /* SCardCell.m */; };
 		AA8EDC9720C4DD2C0004AF4C /* SCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8EDC9520C4DD2C0004AF4C /* SCardCell.xib */; };
+		AA8EDC9A20C53CBF0004AF4C /* CardTransFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8EDC9920C53CBF0004AF4C /* CardTransFlowLayout.m */; };
+		AA8EDC9E20C542690004AF4C /* SCardTransViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA8EDC9C20C542690004AF4C /* SCardTransViewController.m */; };
+		AA8EDC9F20C542690004AF4C /* SCardTransViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA8EDC9D20C542690004AF4C /* SCardTransViewController.xib */; };
 		AA9AD5B420BD103100A6381D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5B320BD103100A6381D /* AppDelegate.m */; };
 		AA9AD5B720BD103100A6381D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA9AD5B620BD103100A6381D /* ViewController.m */; };
 		AA9AD5BA20BD103100A6381D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA9AD5B820BD103100A6381D /* Main.storyboard */; };
@@ -77,6 +80,11 @@
 		AA8EDC9320C4DD2C0004AF4C /* SCardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCardCell.h; sourceTree = "<group>"; };
 		AA8EDC9420C4DD2C0004AF4C /* SCardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCardCell.m; sourceTree = "<group>"; };
 		AA8EDC9520C4DD2C0004AF4C /* SCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCardCell.xib; sourceTree = "<group>"; };
+		AA8EDC9820C53CBF0004AF4C /* CardTransFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTransFlowLayout.h; sourceTree = "<group>"; };
+		AA8EDC9920C53CBF0004AF4C /* CardTransFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTransFlowLayout.m; sourceTree = "<group>"; };
+		AA8EDC9B20C542690004AF4C /* SCardTransViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCardTransViewController.h; sourceTree = "<group>"; };
+		AA8EDC9C20C542690004AF4C /* SCardTransViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCardTransViewController.m; sourceTree = "<group>"; };
+		AA8EDC9D20C542690004AF4C /* SCardTransViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCardTransViewController.xib; sourceTree = "<group>"; };
 		AA9AD5AF20BD103100A6381D /* SWaterFlowLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SWaterFlowLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA9AD5B220BD103100A6381D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AA9AD5B320BD103100A6381D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -212,6 +220,9 @@
 				AA8EDC8E20C4DC1F0004AF4C /* SCardFlowLayoutViewController.h */,
 				AA8EDC8F20C4DC1F0004AF4C /* SCardFlowLayoutViewController.m */,
 				AA8EDC9020C4DC1F0004AF4C /* SCardFlowLayoutViewController.xib */,
+				AA8EDC9B20C542690004AF4C /* SCardTransViewController.h */,
+				AA8EDC9C20C542690004AF4C /* SCardTransViewController.m */,
+				AA8EDC9D20C542690004AF4C /* SCardTransViewController.xib */,
 				AA9AD69320BEA28300A6381D /* SCircleCollectionCell.h */,
 				AA9AD69420BEA28300A6381D /* SCircleCollectionCell.m */,
 				AA9AD69520BEA28300A6381D /* SCircleCollectionCell.xib */,
@@ -358,6 +369,8 @@
 				AA9AD68720BE868B00A6381D /* CircleFlowLayout.m */,
 				AA8EDC8B20C4D7580004AF4C /* CardFlowLayout.h */,
 				AA8EDC8C20C4D7580004AF4C /* CardFlowLayout.m */,
+				AA8EDC9820C53CBF0004AF4C /* CardTransFlowLayout.h */,
+				AA8EDC9920C53CBF0004AF4C /* CardTransFlowLayout.m */,
 			);
 			path = FlowLayout;
 			sourceTree = "<group>";
@@ -474,6 +487,7 @@
 				AA9AD66120BD4A2400A6381D /* MJRefresh.bundle in Resources */,
 				AA9AD69220BEA16500A6381D /* SCircleFlowViewController.xib in Resources */,
 				AA9AD68D20BE8BE900A6381D /* SFlowLayoutViewController.xib in Resources */,
+				AA8EDC9F20C542690004AF4C /* SCardTransViewController.xib in Resources */,
 				AA9AD5BA20BD103100A6381D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -508,6 +522,7 @@
 				AA9AD66B20BD4A2400A6381D /* MJRefreshStateHeader.m in Sources */,
 				AA9AD67020BD4A2400A6381D /* MJRefreshAutoFooter.m in Sources */,
 				AA9AD66E20BD4A2400A6381D /* MJRefreshHeader.m in Sources */,
+				AA8EDC9E20C542690004AF4C /* SCardTransViewController.m in Sources */,
 				AA9AD66420BD4A2400A6381D /* MJRefreshBackGifFooter.m in Sources */,
 				AA9AD69620BEA28300A6381D /* SCircleCollectionCell.m in Sources */,
 				AA9AD66220BD4A2400A6381D /* UIScrollView+MJExtension.m in Sources */,
@@ -529,6 +544,7 @@
 				AA9AD69120BEA16500A6381D /* SCircleFlowViewController.m in Sources */,
 				AA8EDC8D20C4D7580004AF4C /* CardFlowLayout.m in Sources */,
 				AA8EDC9620C4DD2C0004AF4C /* SCardCell.m in Sources */,
+				AA8EDC9A20C53CBF0004AF4C /* CardTransFlowLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

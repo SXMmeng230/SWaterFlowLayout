@@ -11,6 +11,7 @@
 #import "SFlowLayoutViewController.h"
 #import "SCircleFlowViewController.h"
 #import "SCardFlowLayoutViewController.h"
+#import "SCardTransViewController.h"
 @interface ViewController ()
 @end
 
@@ -35,6 +36,11 @@
 {
     SCardFlowLayoutViewController *cardFlow = [[SCardFlowLayoutViewController alloc] init];
     [self.navigationController pushViewController:cardFlow animated:YES];
+}
+- (IBAction)clickCardTrans:(UIButton *)sender
+{
+    SCardTransViewController *transVC = [[SCardTransViewController alloc] init];
+    [self.navigationController pushViewController:transVC animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {

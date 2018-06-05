@@ -45,6 +45,14 @@
                                     <action selector="clickCardFlow:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EwE-k9-Cba"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c7r-1d-eoG">
+                                <rect key="frame" x="117" y="405" width="149" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="CardTransFlowLayout"/>
+                                <connections>
+                                    <action selector="clickCardTrans:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p6Z-jr-YOk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
